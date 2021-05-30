@@ -6,9 +6,9 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: cmep
+    url: jdbc:postgres://sslrmherfdwzbr:7ee9ca489f84ad663e8ff9117f9757020b546728db468ccc3940c085733be779@ec2-54-243-92-68.compute-1.amazonaws.com:5432/dburavluts9sp5
+    username: sslrmherfdwzbr
+    password: 7ee9ca489f84ad663e8ff9117f9757020b546728db468ccc3940c085733be779
   jpa:
     show-sql: true
     database-plataform: org.hibernate.dialect.PostgreSQLDialect
