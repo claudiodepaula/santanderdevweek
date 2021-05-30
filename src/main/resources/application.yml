@@ -17,4 +17,4 @@ spring:
       ddl-auto: none
 
 application:
-  description: Projeto criado para a Semana DIO e Santander
+  description: Projeto criado para a Semana DIO e Santander - Backend
