@@ -10,10 +10,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-@CrossOrigin(origins=*)
+@CrossOrigin(origins = *)
 @RestController
 @RequestMapping(value = "/stock")
-
 public class StockController {
 
     @Autowired

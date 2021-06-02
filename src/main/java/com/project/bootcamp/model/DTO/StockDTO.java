@@ -20,7 +20,6 @@ public class StockDTO {
     private Double price;
 
     @NotNull
-    @DecimalMin(value="0.00")
     @Digits(integer = 3, fraction = 2)
     private Double variation;
 
